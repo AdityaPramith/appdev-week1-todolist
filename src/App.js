@@ -64,7 +64,7 @@ function App() {
 
 	return (
 		<div className="todos">
-			<Header title="REST todos" addTodo={actions.addRestTodo}  type="rest"/>
+			<Header title="Aditya's Todos List" addTodo={actions.addRestTodo}  type="rest"/>
 			<TodoList type="rest" todos={restTodos} actions={actions} />
 		</div>
 	);
